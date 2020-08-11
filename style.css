@@ -1,0 +1,12 @@
+.top{background-color:blueviolet; padding: 5%; border: cornflowerblue;
+ border-style: outset; border: 5px 5px 5px 5px; box-shadow: 10px 10px 10px black;
+border-radius: 10%;font-family: 'Lemonada', cursive;}
+
+.q-box{background-color: whitesmoke;border: 10px 10px 10px 10px;
+    border-style: groove; border-color: wheat;}
+.q-box:hover{background-color: rgb(255, 245, 245);border: 10px 10px 10px 10px;
+        border-style: groove; border-color: rgb(253, 241, 219);}
+
+.q-box_inside{font-family: 'PT Sans', sans-serif; color: rgb(122, 106, 106);}    
+
+.between-q{color: black; font-weight: bolder;}

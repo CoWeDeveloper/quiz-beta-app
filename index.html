@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+</head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap" rel="stylesheet">
+<body>
+    
+    <h1 class="text-center top">
+        Quiz By Muhammad Owais
+    </h1>
+    
+    <div class="container q-box">'
+        <fieldset>
+           <p class="q-box_inside"><span class="between-q"> Q1.</span> What is the answer of 30+50 ?</p>
+           <ul>
+               <li class="list-unstyled"> <input name="Q1"  type="radio" id="q1-a1" ><label for="q1-a1"> 70 </label> </li>
+               <li class="list-unstyled"> <input name="Q1"  type="radio" id="q1-a2" ><label for="q1-a2"> 80 </label> </li>
+               <li class="list-unstyled"> <input name="Q1"  type="radio" id="q1-a3" ><label for="q1-a3"> 90 </label> </li>
+               <li class="list-unstyled"> <input name="Q1"  type="radio" id="q1-a4" ><label for="q1-a4"> 60 </label> </li>
+           </ul>
+        </fieldset>
+    </div>
+    
+    <div class="container q-box">'
+        <fieldset>
+           <p class="q-box_inside"><span class="between-q"> Q2.</span> Which city of pakistan is know as city of light ? </p>
+           <ul>
+              <li class="list-unstyled"> <input name="Q2"  type="radio" id="q2-a1" ><label for="q2-a1"> Lahore </label> </li>
+              <li class="list-unstyled"> <input name="Q2"  type="radio" id="q2-a2" ><label for="q2-a2"> multan </label> </li>
+              <li class="list-unstyled"> <input name="Q2"  type="radio" id="q2-a3" ><label for="q2-a3"> quetta </label> </li>
+              <li class="list-unstyled"> <input name="Q2"  type="radio" id="q2-a4" ><label for="q2-a4"> karachi </label> </li>
+           </ul>
+        </fieldset>
+    </div>
+    <div class="container q-box">'
+        <fieldset>
+            <p class="q-box_inside"><span class="between-q"> Q3.</span> Chose programming language from the following  ? </p>
+            <ul >
+                <li class="list-unstyled"> <input required name="Q3"  type="radio" id="q3-a1" ><label for="q3-a1"> Html </label> </li>
+                <li class="list-unstyled"> <input required name="Q3"  type="radio" id="q3-a2" ><label for="q3-a2"> Python </label> </li>
+               <li class="list-unstyled"> <input required name="Q3"  type="radio" id="q3-a3" ><label for="q3-a3"> JS </label> </li>
+               <li class="list-unstyled"> <input required name="Q3"  type="radio" id="q3-a4" ><label for="q3-a4"> B and C </label> </li>
+           </ul>
+        </fieldset>
+    </div>
+    <div class="container q-box">'
+        <fieldset>
+           <p class="q-box_inside"><span class="between-q"> Q4.</span> Crossion is a following reaction  ? </p>
+           <ul>
+               <li class="list-unstyled"> <input name="Q4"  type="radio" id="q4-a1" ><label for="q4-a1"> Non-spontaneous </label> </li>
+               <li class="list-unstyled"> <input name="Q4"  type="radio" id="q4-a2" ><label for="q4-a2"> Ionic </label> </li>
+               <li class="list-unstyled"> <input name="Q4"  type="radio" id="q4-a3" ><label for="q4-a3"> Spontaneous </label> </li>
+               <li class="list-unstyled"> <input name="Q4"  type="radio" id="q4-a4" ><label for="q4-a4"> None </label> </li>
+           </ul>
+        </fieldset>
+    </div>
+    <button class="btn-primary offset-6 mt-5 mb-5"style="margin-left:40%; width:20%;height:30%;" " onclick="result()"  >Submit</button>
+</body>
+<script src="app.js"> </script>
+</html>
